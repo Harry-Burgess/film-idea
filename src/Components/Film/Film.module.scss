@@ -1,7 +1,7 @@
-a{
+a {
   text-decoration: none;
 }
-.film{
+.film {
   background: #e4e4e4;
   max-width: 200px;
   line-height: 0;
@@ -12,11 +12,11 @@ a{
   box-shadow: 5px 9px 4px 0px rgb(187 187 187 / 80%);
   transition: 0.3s;
   border: 2px solid #363636;
-  &:hover{
+  &:hover {
     box-shadow: 3px 3px 2px 0px rgb(187 187 187 / 80%);
     transform: translate(3px, 3px);
   }
-  h3{
+  h3 {
     margin: 0;
     padding: 0.4em;
     line-height: 2rem;
@@ -24,8 +24,9 @@ a{
     font-size: 1.8rem;
     font-weight: normal;
   }
-  img{
+  img {
     width: 100%;
     line-height: 0;
+    border-top: 2px solid #363636;
   }
 }
