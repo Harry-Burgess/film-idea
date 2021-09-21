@@ -1,22 +1,42 @@
-body{
+body {
   background: rgb(238, 238, 238);
+  box-sizing: border-box;
 }
-p{
+p {
   color: rgb(51, 51, 51);
-  font-size: 2rem;
+  font-size: 1.8rem;
+  position: relative;
 }
-.App{
+.App {
   color: red;
-  >p{
+  > p {
     margin-left: 1em;
   }
 }
-.content-wrapper{
+.content-wrapper {
   display: flex;
   justify-content: center;
   align-items: baseline;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.shuffle-icon {
+  position: absolute;
+  top: 400%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 4px 5px 4px 0px rgb(187 187 187 / 80%);
+  transition: 0.3s;
+  border: 2px solid #363636;
+  padding: 0.3em;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 3px 3px 2px 0px rgb(187 187 187 / 80%);
+    transform: translate(-48%);
+  }
 }
