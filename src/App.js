@@ -4,8 +4,9 @@ import Film from "./Components/Film/Film"
 const App = () => {
   return (
     <div className={styles["App"]}>
+      <p>Yeah so I'm writing this screenplay, </p>
       <div className={styles["content-wrapper"]}>
-        <p>Yeah so I'm writing this screenplay, it's like</p>
+        <p>it's like</p>
         <Film />
         <p>meets</p>
         <Film />

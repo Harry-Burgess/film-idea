@@ -2,19 +2,28 @@ a{
   text-decoration: none;
 }
 .film{
-  background: #363636;
-  max-width: 150px;
+  background: #e4e4e4;
+  max-width: 200px;
   line-height: 0;
-  border-radius: 10px;
-  margin: 0 0.3em;
+  border-radius: 5px;
+  margin: 0 0.7em;
   height: auto;
   overflow: hidden;
+  box-shadow: 5px 9px 4px 0px rgb(187 187 187 / 80%);
+  transition: 0.3s;
+  border: 2px solid #363636;
+  &:hover{
+    box-shadow: 3px 3px 2px 0px rgb(187 187 187 / 80%);
+    transform: translate(3px, 3px);
+  }
   h3{
     margin: 0;
     padding: 0.4em;
-    line-height: 1.4rem;
+    line-height: 2rem;
     font-size: 1rem;
-    color: salmon;
+    color: rgb(51, 51, 51);
+    font-size: 2rem;
+    font-weight: normal;
   }
   img{
     width: 100%;

@@ -1,15 +1,22 @@
 body{
-  background: rgb(134, 134, 134);
+  background: rgb(238, 238, 238);
 }
 p{
-  color: wheat;
-  font-size: 1rem;
+  color: rgb(51, 51, 51);
+  font-size: 2rem;
 }
 .App{
   color: red;
+  >p{
+    margin-left: 1em;
+  }
 }
 .content-wrapper{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
