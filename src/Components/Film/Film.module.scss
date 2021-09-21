@@ -1,0 +1,23 @@
+a{
+  text-decoration: none;
+}
+.film{
+  background: #363636;
+  max-width: 150px;
+  line-height: 0;
+  border-radius: 10px;
+  margin: 0 0.3em;
+  height: auto;
+  overflow: hidden;
+  h3{
+    margin: 0;
+    padding: 0.4em;
+    line-height: 1.4rem;
+    font-size: 1rem;
+    color: salmon;
+  }
+  img{
+    width: 100%;
+    line-height: 0;
+  }
+}

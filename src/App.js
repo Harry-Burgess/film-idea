@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.scss';
+import Film from "./Components/Film/Film"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles["App"]}>
+      <div className={styles["content-wrapper"]}>
+        <p>Yeah so I'm writing this screenplay, it's like</p>
+        <Film />
+        <p>meets</p>
+        <Film />
+      </div>
     </div>
   );
 }
