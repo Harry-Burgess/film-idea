@@ -9,6 +9,7 @@ const Film = () => {
       <a
         href={`https://www.imdb.com/title/${randomFilm.imdbid}`}
         target="_blank"
+        rel="noreferrer"
       >
         <h3>{randomFilm.title}</h3>
         <img src={randomFilm.poster} alt={`${randomFilm.title} Poster`} />

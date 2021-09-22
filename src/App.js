@@ -14,17 +14,15 @@ const App = () => {
       <div className={styles["content-wrapper"]}>
         <p>it's like</p>
         <Film key={randomKey + 1} />
-        <p>
-          meets
-          <img
-            className={styles["shuffle-icon"]}
-            src="/shuffle.svg"
-            alt="Shuffle icon"
-            onClick={shuffleHandler}
-          />
-        </p>
+        <p>meets</p>
         <Film key={randomKey - 1} />
       </div>
+      <img
+        className={styles["shuffle-icon"]}
+        src="/shuffle.svg"
+        alt="Shuffle icon"
+        onClick={shuffleHandler}
+      />
     </div>
   );
 };
