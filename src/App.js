@@ -22,9 +22,9 @@ const App = () => {
       <p>Yeah so I'm writing this screenplay, </p>
       <div className={styles["content-wrapper"]}>
         <p>it's like</p>
-        <Film posterStatus={posterToggle} />
+        <Film key={randomKey + 1} posterStatus={posterToggle} />
         <p>meets</p>
-        <Film posterStatus={posterToggle} />
+        <Film key={randomKey - 1} posterStatus={posterToggle} />
       </div>
       <img
         className={styles["shuffle-icon"]}
